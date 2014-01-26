@@ -7,7 +7,7 @@
 
 #warningScreen {
   font: 11pt cantarell;
-  background-color: #f6f6f4;
+  background-color: #dedede;
   background-image: linear-gradient(to bottom, #eeeeec, #f6f6f4);
   background-size: 100% 5em;
   background-repeat: no-repeat;

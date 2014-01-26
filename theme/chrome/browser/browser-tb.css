@@ -9,14 +9,14 @@
   background: transparent;
   border: 1px solid transparent;
   border-radius: 3px;
-  color: #2e3436;
+  color: #333333;
   text-shadow: none;
   transition-property: border, box-shadow, background;
   transition-duration: 200ms;
 }
 
 :-moz-any(#navigator-toolbox, #addon-bar) toolbarbutton:not([disabled="true"]):hover {
-  background-image: linear-gradient(to bottom, #fff, #ebebeb);
+  background-image: linear-gradient(to bottom, transparent);
   border-color: #a7aba7;
   box-shadow: 0 1px 0 rgba(255,255,255,0.37);
 }
@@ -32,7 +32,7 @@
 :-moz-any(#navigator-toolbox, #addon-bar) toolbarbutton[open="true"]:hover,
 :-moz-any(#navigator-toolbox, #addon-bar) toolbarbutton[checked="true"],
 :-moz-any(#navigator-toolbox, #addon-bar) toolbarbutton[checked="true"]:hover {
-  background-image: linear-gradient(to bottom, #a6aaa6, #e2e2e2);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
   border-color: #a7aba7;
   box-shadow: 0 1px 0 rgba(255,255,255,0.37);
 }

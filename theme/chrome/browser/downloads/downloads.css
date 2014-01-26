@@ -20,12 +20,12 @@
 
 #downloadsHistory {
   background: transparent;
-  color: gray;
+  color: #333333;
   cursor: pointer;
 }
 
 #downloadsHistory:hover {
-	color: #3A81CC;
+	color: #d64937;
 }
 
 #downloadsPanel[hasdownloads] > #downloadsFooter {

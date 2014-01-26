@@ -5,7 +5,7 @@
 @import url("chrome://browser/skin/extensions/all-in-one-sidebar.css");
 
 #addons-page {
-  background: #ebebeb url(chrome://browser/skin/devtools/noise.png);
+  background: #dedede url(chrome://browser/skin/devtools/noise.png);
   background-attachment: fixed;
   padding: 0;
 }
@@ -96,7 +96,7 @@
 /*** view-port-container ***/
 
 #view-port-container {
-  background: #fff;
+  background: #f9f9f9;
   border: 0;
   border-radius: 0;
   -moz-border-start: 2px solid;
